@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mulish&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mulish&family=Poppins&display=swap");
+
+.buttons a {
+  color: #2d2e32;
+  transition: all 0.6s;
+}
+
+.buttons a:hover {
+  color: #f7f7f7;
+}
+
+#title {
+  display: flex;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #8ec5fc, #f29d8e, #e8c995);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(300deg, #8ec5fc, #f29d8e, #e8c995);
+  background-size: 180% 180%;
+  -webkit-background-clip: text; /* For WebKit/Blink browsers */
+  background-clip: text;
+  color: transparent;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.nav-link svg {
+  opacity: 0.5;
+}
+.nav-link:hover svg {
+  fill: #2d2e32;
+  opacity: 1;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #2d2e32;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #2d2e32;
+}
+
+.lead {
+  font-family: "Mulish", sans-serif;
+  color: #2d2e32;
+  font-weight: 400;
+}
+
+#mainPicture {
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 450px;
+}
+
+#mainTag {
+  font-size: 60px;
+  color: #2d2e32;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6e6e6e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+html {
+  scrollbar-color: #f1f1f1 #888;
+}
+
+html::-moz-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+html::-moz-scrollbar-thumb:hover {
+  background-color: #6e6e6e;
+}
+
+#about {
+  background-color: #fff;
+}
+
+#aboutme {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #f29d8e;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-top: 180px;
+  width: 4.2rem;
+  background-color: #fbf3f3a4;
+  margin-left: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.nav-pills {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+#copyright {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: #2d2e32;
+}
+#projects {
+  background-color: #f7f7f7;
+}
+
+.mail-dummy {
+  transition: transform 0.3s ease 0s;
+  color: #8ec5fc;
+}
+
+.mail-dummy:hover {
+  transform: translateY(-10px);
+  color: #f29d8e;
+}
+
+#border-project {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.learn-more-btn {
+  background-color: #f29d8e;
+  border-radius: 25px;
+  border: none;
+  transition: transform 0.3s ease 0s;
+}
+
+.learn-more-btn:hover {
+  background-color: #de968a;
+  transform: translateY(-3px);
+}
